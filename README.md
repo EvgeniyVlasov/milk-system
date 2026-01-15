@@ -6,20 +6,16 @@
 
 1. Установите Docker
 2. Выполните:
-```bash
-docker-compose up -d
-docker-compose exec php composer install
-docker-compose exec php php yii migrate
-
+    ```bash
+    docker-compose up -d
+    docker-compose exec php composer install
+    docker-compose exec php php yii migrate
+    ```
 3. Откройте http://localhost
 
-
-Использование
+## Использование
 
 1. Введите имя сотрудника
-
 2. Введите количество молока
-
 3. Нажмите "Добавить"
-
 4. Система автоматически распределит молоко по цистернам
