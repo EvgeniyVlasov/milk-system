@@ -25,7 +25,7 @@ use yii\helpers\Url;
 <body>
 <nav class="navbar navbar-dark bg-primary mb-4">
     <div class="container">
-        <span class="navbar-brand mb-0 h1">🥛 Система учета молока</span>
+        <span class="navbar-brand mb-0 h1">Система учета молока</span>
     </div>
 </nav>
 
@@ -33,7 +33,7 @@ use yii\helpers\Url;
     <!-- Форма добавления молока -->
     <div class="card shadow mb-4">
         <div class="card-header bg-success text-white">
-            <h5 class="mb-0">📥 Добавить молоко</h5>
+            <h5 class="mb-0">Добавить молоко</h5>
         </div>
         <div class="card-body">
             <form id="fillForm">
@@ -63,7 +63,7 @@ use yii\helpers\Url;
     <!-- Статистика цистерн -->
     <div class="card shadow mb-4">
         <div class="card-header bg-info text-white">
-            <h5 class="mb-0">📊 Статистика цистерн</h5>
+            <h5 class="mb-0">Статистика цистерн</h5>
         </div>
         <div class="card-body">
             <div class="row" id="tanksContainer">
@@ -107,7 +107,7 @@ use yii\helpers\Url;
     <!-- История заливок -->
     <div class="card shadow">
         <div class="card-header bg-secondary text-white">
-            <h5 class="mb-0">📝 История заливок</h5>
+            <h5 class="mb-0">История заливок</h5>
         </div>
         <div class="card-body">
             <div class="table-responsive">
