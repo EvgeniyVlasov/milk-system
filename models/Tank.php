@@ -51,14 +51,13 @@ class Tank extends ActiveRecord
                 'ROUND(current_volume * 100.0 / max_volume, 1) as fill_percentage'
             ])
             ->orderBy(['id' => SORT_ASC])
-            ->limit(5) // Добавьте лимит
+            ->limit(5)
             ->asArray()
             ->all();
     }
 
     public static function findBestTankForFilling()
     {
-        // Простой и надежный алгоритм
         $tanks = self::find()->orderBy(['current_volume' => SORT_ASC])->all();
         
         foreach ($tanks as $tank) {
